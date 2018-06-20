@@ -1,0 +1,8 @@
+{
+  "overrides": [
+    {
+      "files": ["."],
+      "excludedFiles": "example/node_modules/**/*.*"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "name": "react-native-biometric-authentication",
+  "version": "1.0.0",
+  "description": "React Native Biometric Authentication (Touch ID, Face ID, and Fingerprint) for iOS and Android.",
+  "nativePackage": true,
+  "main": "index.js",
+  "scripts": {
+    "lint": "node_modules/.bin/eslint .",
+    "start": "node_modules/react-native/packager/packager.sh",
+    "test": "npm run lint"
+  },
+  "peerDependencies": {
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.0",
+    "eslint": "^4.7.2",
+    "eslint-plugin-react": "^7.3.0",
+    "eslint-plugin-react-native": "^3.1.0"
+  },
+  "keywords": [
+    "react-native",
+    "react",
+    "native",
+    "touchid",
+    "fingerprint",
+    "authentication",
+    "auth",
+    "ios",
+    "android",
+    "mobile",
+    "biometric"
+  ],
+  "author": "OFX",
+  "contributors": [
+    "Tom Hall <tom.hall@ofx.com>",
+    "Dennis Gann <dennis.gann@ofx.com>",
+    "Sha Senevirathne <sha.senevirathne@ofx.com>",
+    "Bharadwaj Sampath <bharadwaj.sampath@ofx.com>",
+    "Barani Thiruvengadam <barani.thiruvengadam@ofx.com>"
+  ],
+  "homepage": "https://github.com/ofx-engineering/react-native-biometric-authentication",
+  "bugs": {
+    "url": "https://github.com/ofx-engineering/react-native-biometric-authentication/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ofx-engineering/react-native-biometric-authentication.git"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,19 @@
+{
+  "parser": "babel-eslint",
+  "plugins": [
+      "react-native"
+    ],
+  "overrides": [
+    {
+      "files": ["."],
+      "excludedFiles": "node_modules/**/*.*"
+    }
+  ],
+  "parserOptions": {
+    "ecmaVersion": 7,
+    "sourceType": "module",
+    "ecmaFeatures": {
+        "jsx": true
+    }
+  }
+}

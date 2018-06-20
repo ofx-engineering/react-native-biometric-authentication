@@ -1,0 +1,12 @@
+local.properties
+android/.idea
+ios/BiometricAuthentication.xcodeproj/project.xcworkspace/xcuserdata
+ios/BiometricAuthentication.xcodeproj/xcuserdata
+node_modules
+android/build
+android/.gradle
+android.iml
+example/.vscode
+*.iml
+android/bin
+example/android/app/bin
